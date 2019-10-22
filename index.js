@@ -18,5 +18,5 @@ const titleCased = () => {
 function titleCase(phrase) {
   let sentence = phrase.split(' ')
   let upSentence = sentence.map((word) => word.charAt(0).toUpperCase() + word.slice(1))
-  console.log(upSentence)
+  let modifiedSentence = upSentence.join()
 }
