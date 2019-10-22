@@ -14,3 +14,8 @@ const tutorials = [
 const titleCased = () => {
   return tutorials
 }
+
+function titleCase(phrase) {
+  let sentence = phrase.split(' ')
+  console.log(sentence)
+}
