@@ -21,3 +21,4 @@ function titleCase(phrase) {
   let modifiedSentence = upSentence.join(' ')
   return modifiedSentence
 }
+
