@@ -17,5 +17,5 @@ const titleCased = () => {
 
 function titleCase(phrase) {
   let sentence = phrase.split(' ')
-  console.log(sentence)
+  sentence.map((word) => word.toUp)
 }
