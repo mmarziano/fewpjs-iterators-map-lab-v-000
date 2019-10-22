@@ -22,3 +22,4 @@ function titleCase(phrase) {
   return modifiedSentence
 }
 
+return tutorials.map(titleCase(sentence))
